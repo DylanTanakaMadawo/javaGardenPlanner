@@ -352,7 +352,7 @@ public class myGUI extends JFrame implements ActionListener{
 		vegSearchButton.setVisible(false);
 		
 		JPanel leftPanel = new JPanel();
-		leftPanel.setBackground(Color.red);
+//		leftPanel.setBackground(Color.red);
 		leftPanel.setBounds(0, 0, 400, 800);
 		leftPanel.setLayout(null);
 		leftPanel.add(selectPlant);
@@ -397,7 +397,7 @@ public class myGUI extends JFrame implements ActionListener{
 		
 		
 		resultsPanel = new JPanel();
-		resultsPanel.setBackground(Color.blue);
+//		resultsPanel.setBackground(Color.blue);
 		resultsPanel.setBounds(400, 0, 600, 800);
 		resultsPanel.setLayout(null);
 		resultsPanel.setVisible(false);
@@ -476,7 +476,7 @@ public class myGUI extends JFrame implements ActionListener{
 		
 		
 		flowerPanel = new JPanel();
-		flowerPanel.setBackground(Color.green);
+//		flowerPanel.setBackground(Color.green);
 		flowerPanel.setBounds(400, 0, 600, 800);
 		flowerPanel.setLayout(null);
 		flowerPanel.add(flowerNameText);
@@ -553,7 +553,7 @@ public class myGUI extends JFrame implements ActionListener{
 		fruitSubmitButton.addActionListener(this);
 		
 		fruitPanel = new JPanel();
-		fruitPanel.setBackground(Color.pink);
+//		fruitPanel.setBackground(Color.pink);
 		fruitPanel.setBounds(400, 0, 600, 800);
 		fruitPanel.setLayout(null);
 		fruitPanel.add(fruitNameText);
@@ -633,7 +633,7 @@ public class myGUI extends JFrame implements ActionListener{
 		vegSubmitButton.addActionListener(this);
 		
 		vegPanel = new JPanel();
-		vegPanel.setBackground(Color.yellow);
+//		vegPanel.setBackground(Color.yellow);
 		vegPanel.setBounds(400, 0, 600, 800);
 		vegPanel.setLayout(null);
 		vegPanel.add(vegNameText);
